@@ -88,6 +88,7 @@ body {
   font-size: 4rem;
   color: #111E2E;
   text-decoration: underline;
+  filter: drop-shadow(0 0 0.3px #273B45);
 }
 .first-section p {
   font-size: 1.7rem;
@@ -146,13 +147,14 @@ main h2 {
 }
 .figure {
   padding: 20px;
+  filter: drop-shadow(0 0 7px #273B45);
 }
 .tools {
   clip-path: polygon(18% 42%, 80% 0%, 100% 100%, 0% 100%);
   padding: 10px;
   clip-path: padding: 10px;
 }
-button {
+.btn {
   border-radius: 0.8rem;
   background-color: #E19F20;
   color: #0A141E;
@@ -160,8 +162,7 @@ button {
   padding: 1rem 1.8rem;
   background-color: #ffd262;
   border-color: #e4b34f;
-  border: 1px solid transparent;
-  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  box-shadow: 0 0 3px #273B45;
 }
 h4 {
   color: #777;
@@ -270,14 +271,14 @@ h4 {
 }
 .flex-container {
   display: flex;
-  padding: 1em;
+  padding: 1rem;
 }
 .flex-item {
   flex: 1;
   width: 0;
 }
 .flex-item:not(:last-child) {
-  margin-right: 1em;
+  margin-right: 1rem;
 }
 .package {
   border: 1px solid #eee;
@@ -291,55 +292,51 @@ h4 {
   transform: scale(1.025);
 }
 .package .header {
-  background-color: #333;
+  background-color: #273B45;
   color: #fff;
-  font-size: 1.5em;
+  font-size: 1.5rem;
 }
 .package .highlight {
-  background-color: #29b6f6;
+  background-color: #A3EADD;
 }
 .package li {
   background-color: #fff;
   border-bottom: 1px solid #eee;
-  padding: 1.2em;
+  padding: 1.2rem;
   text-align: center;
 }
 .package .gray {
   background-color: #eee;
-  font-size: 1.25em;
+  font-size: 1.25rem;
 }
-button {
-  background-color: #29b6f6;
+.btn2 {
+  background-color: #A3EADD;
   border: none;
-  border-radius: 0.15em;
-  color: #fff;
+  border-radius: 0.8rem;
+  color: #273B45;
   cursor: pointer;
-  padding: 0.75em 1.5em;
-  font-size: 1em;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  box-shadow: 0 0 3px #273B45;
+  text-shadow: 0 0 20px #273B45;
 }
-@media only screen and (max-width: 700px) {
+@media (max-width: 880px) {
   button {
-    padding: 0.75em;
+    padding: 0.75rem;
   }
 }
-@media only screen and (max-width: 600px) {
+@media (max-width: 550px) {
   .flex-container {
     flex-wrap: wrap;
   }
   .flex-item {
     flex: 0 0 100%;
-    margin-bottom: 1em;
+    margin-bottom: 1rem;
     width: 100%;
-  }
-  .flex-item .ptag {
-    border-radius: 10px;
   }
   .flex-item .package:hover {
     box-shadow: none;
     transform: none;
-  }
-  .flex-item button {
-    padding: 0.75em 1.5em;
   }
 }
 /* footer css */
