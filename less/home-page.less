@@ -59,12 +59,17 @@ header {
     margin: 2rem auto 0;
     max-width: 600px;
 
+
     a {
       text-decoration: none;
       font-size: 1.8rem;
       color: @textcolor;
       padding: 0 20px;
 
+    }
+    a:hover {
+      text-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.2);
+      transform: scale(1.025);
     }
     .lite{
       border: 1px solid  #E19F20;
@@ -229,21 +234,6 @@ font-style: normal;
     font-weight: 400;
     line-height: 17px;
 }
-//pricing table
-// h3{
-//   text-align: center;
-// }
-//
-// .pricing-table{
-//   width: 300px;
-//   display: flex;
-//   flex-wrap: wrap;
-// align-items: center;
-//     text-align: center;
-//
-//     justify-content: space-evenly;
-//
-// }
 
 
 .pricing {
@@ -335,14 +325,18 @@ button {
     flex: 0 0 100%;
     margin-bottom: 1em;
     width: 100%;
-  }
 
-  .package:hover {
-    box-shadow: none;
-    transform: none;
-  }
+    .ptag{
+      border-radius: 10px;
+    }
 
-  button {
-    padding: .75em 1.5em;
+    .package:hover {
+      box-shadow: none;
+      transform: none;
+    }
+
+    button {
+      padding: .75em 1.5em;
+    }
   }
-}
+  }

@@ -121,6 +121,10 @@ header nav a {
   color: #777;
   padding: 0 20px;
 }
+header nav a:hover {
+  text-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.2);
+  transform: scale(1.025);
+}
 header nav .lite {
   border: 1px solid #E19F20;
   width: 100px;
@@ -327,11 +331,14 @@ button {
     margin-bottom: 1em;
     width: 100%;
   }
-  .package:hover {
+  .flex-item .ptag {
+    border-radius: 10px;
+  }
+  .flex-item .package:hover {
     box-shadow: none;
     transform: none;
   }
-  button {
+  .flex-item button {
     padding: 0.75em 1.5em;
   }
 }
