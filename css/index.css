@@ -108,13 +108,12 @@ header {
     text-align: center;
   }
 }
-header .navigation {
-  display: flex;
-  flex-direction: row;
-}
 header nav {
   margin: 2rem auto 0;
   max-width: 600px;
+  display: flex;
+  flex-direction: row;
+  padding: 30px;
 }
 header nav a {
   text-decoration: none;
@@ -201,69 +200,6 @@ main h2 {
   line-height: 43px;
   text-decoration: none;
   transition: color 0.2s;
-}
-.how-it-works {
-  margin-top: 20px;
-}
-.title {
-  color: #036;
-  font-size: 16px;
-  font-style: normal;
-}
-.row {
-  margin-left: -15px;
-  margin-right: -15px;
-}
-.col-lg-3 {
-  width: 25%;
-}
-@media (max-width: 550px) {
-  .col-sm-12 {
-    width: 100%;
-  }
-}
-.col-md-6 {
-  float: left;
-}
-.how-it-works-item {
-  background: #00cbbc;
-  background-position: left center;
-  background-size: cover;
-  margin-bottom: 20px;
-  border-radius: 20px;
-}
-.how-it-works-number {
-  display: table-cell;
-  height: 130px;
-  padding: 53px 0 0 15px;
-  position: relative;
-  width: 12%;
-}
-.how-it-works-content {
-  display: table-cell;
-  padding: 25px 9px 25px 36px;
-  text-align: left;
-  vertical-align: middle;
-  width: 88%;
-}
-.how-it-works-value {
-  color: #fff;
-  font-size: 25px;
-  font-style: normal;
-  font-weight: 500;
-}
-.how-it-works-head {
-  font-size: 26px;
-  font-style: normal;
-  font-weight: 500;
-  margin: 0 0 4px;
-}
-.how-it-works-description {
-  color: #fff;
-  font-size: 12px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 17px;
 }
 .pricing {
   color: #404040;
@@ -410,48 +346,8 @@ h3 {
   flex: 0 0 auto;
   -webkit-flex: 0 0 auto;
 }
-@media screen and (max-width: 500px) {
-  .container {
-    display: flex;
-    flex-direction: column;
-    width: 500px;
-    margin: 10px auto;
-  }
-  header {
-    text-align: center;
-  }
-  .top-content {
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
-  }
-  .bottom-content {
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
-  }
-}
 h1 {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  font-weight: bold;
-  font-size: 3rem;
-  padding: 30px;
-  color: #216583;
-  background-color: #bbded6;
-}
-nav {
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-  padding: 30px;
-}
-a {
-  text-decoration: none;
-  font-size: 1.2rem;
-  color: #216583;
-  font-weight: bold;
+  padding: 20px;
 }
 .top-content {
   display: flex;
@@ -509,7 +405,6 @@ button {
 }
 .modalDialog {
   position: fixed;
-  font-family: 'Roboto Slab', serif;
   top: 0;
   right: 0;
   bottom: 0;
@@ -558,7 +453,7 @@ button {
 .close:hover {
   background: #00d9ff;
 }
-@media screen and (max-width: 500px) {
+@media (max-width: 550px) {
   .container {
     display: flex;
     flex-direction: column;
@@ -579,7 +474,7 @@ button {
     text-align: center;
   }
 }
-@media screen and (max-width: 800px) {
+@media (max-width: 880px) {
   .container {
     display: flex;
     flex-direction: column;
@@ -599,4 +494,10 @@ button {
     justify-content: center;
     text-align: center;
   }
+}
+.about h3 {
+  padding: 10px 20px;
+  color: #216583;
+  background-color: #bbded6;
+  text-align: center;
 }
