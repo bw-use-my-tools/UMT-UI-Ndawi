@@ -263,6 +263,10 @@ h3 {
 #myFooter .container {
   text-align: center;
 }
+#myFooter p {
+  font-size: 1.7rem;
+  padding-bottom: 20px;
+}
 #myFooter .footer-copyright {
   margin-top: 40px;
   text-align: center;
