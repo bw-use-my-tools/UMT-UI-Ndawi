@@ -368,6 +368,12 @@ button {
   border-radius: 12px;
   cursor: pointer;
 }
+.about h3 {
+  padding: 10px 20px;
+  color: #216583;
+  background-color: #bbded6;
+  text-align: center;
+}
 @media (max-width: 550px) {
   .container {
     display: flex;
@@ -410,12 +416,8 @@ button {
     text-align: center;
   }
   .reverse {
+    display: flex;
     flex-direction: column-reverse;
+    justify-content: center;
   }
-}
-.about h3 {
-  padding: 10px 20px;
-  color: #216583;
-  background-color: #bbded6;
-  text-align: center;
 }
