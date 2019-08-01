@@ -73,9 +73,10 @@ body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 .container {
-  max-width: 1005px;
+  max-width: 1000px;
   margin: 0 auto;
   padding: 0.7rem 1rem;
+  width: 98%;
 }
 .first-section {
   background-color: #DFF5F2;
@@ -171,7 +172,7 @@ main h2 {
 .middle-section h4 {
   color: #777;
   line-height: 2.1rem;
-  margin: 0px;
+  margin: 0;
 }
 .botm {
   background-color: #DBECE8;
@@ -363,7 +364,7 @@ h1 {
   margin: 20px;
 }
 .container {
-  width: 98%;
+  width: 1000px;
   margin: auto;
 }
 .staff-img {
@@ -493,6 +494,9 @@ button {
     flex-direction: column;
     justify-content: center;
     text-align: center;
+  }
+  .reverse {
+    flex-direction: column-reverse;
   }
 }
 .about h3 {

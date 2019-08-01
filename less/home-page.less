@@ -6,13 +6,13 @@
 
 body {
   font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
-  // font-family: 'Quicksand', sans-serif;
 }
 
 .container {
-  max-width: 1005px;
+  max-width: 1000px;
   margin: 0 auto;
   padding: 0.7rem 1rem;
+  width: 98%;
 }
 
 .first-section {
@@ -36,8 +36,9 @@ body {
     font-size: 1.7rem;
     padding-bottom: 20px;
   }
-  .top{
-      width: 500px;
+
+  .top {
+    width: 500px;
     padding-top: 30px;
   }
 }
@@ -49,7 +50,6 @@ header {
   @media @mobile {
     text-align: center;
   }
-
 
   nav {
     margin: 2rem auto 0;
@@ -63,18 +63,18 @@ header {
       font-size: 1.8rem;
       color: @textcolor;
       padding: 0 20px;
-
     }
+
     a:hover {
       text-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.2);
       transform: scale(1.025);
     }
-    .lite{
-      border: 1px solid  #E19F20;
+
+    .lite {
+      border: 1px solid #E19F20;
       width: 100px;
       border-radius: 50px;
       text-align: center;
-
     }
   }
 }
@@ -101,39 +101,36 @@ main {
   clip-path: polygon(18% 42%, 80% 0%, 100% 100%, 0% 100%);
   padding: 10px;
   clip-path:padding: 10px;
-
 }
 
 .btn {
   width: 11rem;
   border-radius: 0.8rem;
-  padding:1rem 1.8rem;
-background-color: #E19F20;
-color:	#0A141E;
-width: 11rem;
-padding:1rem 1.8rem;
-background-color: #ffd262;
-border-color: #e4b34f;
-// color: #552600;
-// border: 1px solid transparent;
+  padding: 1rem 1.8rem;
+  background-color: #E19F20;
+  color: #0A141E;
+  width: 11rem;
+  padding: 1rem 1.8rem;
+  background-color: #ffd262;
+  border-color: #e4b34f; // color: #552600;
+  // border: 1px solid transparent;
   box-shadow: 0 0 3px #273B45;
 }
 
-.middle-section{
+.middle-section {
   background-color: #f7f7f7;
   width: 100%;
   padding: 50px 30px;
 
-  h4{
+  h4 {
     color: #777;
     line-height: 2.1rem;
-    margin: 0px;
-
+    margin: 0;
   }
 }
 
 .botm {
-  background-color: #DBECE8 ;
+  background-color: #DBECE8;
   width: 100%;
   display: flex;
   flex-wrap: wrap;
@@ -170,15 +167,13 @@ border-color: #e4b34f;
   text-align: center;
   display: flex;
   flex-direction: column;
-
-padding: 80px 50px;
-
+  padding: 80px 50px;
 }
 
-h3{
+h3 {
   font-size: 28px;
   text-decoration: underline;
-  color: #404040
+  color: #404040;
 }
 
 .flex-container {
@@ -236,18 +231,16 @@ h3{
   border-radius: 0.8rem;
   color: #273B45;
   cursor: pointer;
-  padding: .75rem 1.5rem;
+  padding: 0.75rem 1.5rem;
   font-size: 1rem;
   box-shadow: 0 0 3px #273B45;
   text-shadow: 0 0 20px #273B45;
 }
-
 @media @tablet {
   button {
-    padding: .75rem;
+    padding: 0.75rem;
   }
 }
-
 @media @mobile {
   .flex-container {
     flex-wrap: wrap;
@@ -258,12 +251,9 @@ h3{
     margin-bottom: 1rem;
     width: 100%;
 
-
     .package:hover {
       box-shadow: none;
       transform: none;
     }
-
-
   }
-  }
+}
